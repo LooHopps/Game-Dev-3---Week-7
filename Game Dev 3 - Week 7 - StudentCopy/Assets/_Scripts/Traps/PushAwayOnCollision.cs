@@ -39,6 +39,7 @@ namespace GameDevWithMarco.Traps
 
             //---Ripple Effect---
             CameraRippleEffect.Instance.Ripple(collision.contacts[0].point);
+            VFXManager.Instance.HitStop(0.2f);
         }
     }
 }
